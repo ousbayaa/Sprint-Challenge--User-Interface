@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,120 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+header nav{
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+    justify-content: space-around;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14.5px;
+}
+
+.top-header{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.box:nth-child(1){
+    background: teal;
+}
+
+.box:nth-child(2){
+    background: gold;
+}
+
+.box:nth-child(3){
+    background: cadetblue;
+}
+
+.box:nth-child(4){
+    background: coral;
+}
+
+.box:nth-child(5){
+    background: crimson;
+}
+
+.box:nth-child(6){
+    background: forestgreen;
+}
+
+.box:nth-child(7){
+    background: darkorchid;
+}
+
+.box:nth-child(8){
+    background: hotpink;
+}
+
+.box:nth-child(9){
+    background: indigo;
+}
+
+.box:nth-child(10){
+    background: dodgerblue;
+}
+
+.single-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dashed-hr hr {
+    color: black;
+    border-top: dashed 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.two-part-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.two-part-flex div {
+    flex-basis: 20%;
+    margin-bottom: 40px;
+}
+
+.two-part-flex div h2 {
+    margin-top: 10px;
+}
+
+.two-part-flex div button {
+    border: 2px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: medium;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 9px;
+}
+
+.two-part-flex div hr {
+    color: black;
+    border-top: dashed 1px;
+}
+
+#lets-work-together {
+    margin-bottom: 40px;
 }
